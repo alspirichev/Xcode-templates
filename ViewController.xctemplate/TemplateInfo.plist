@@ -7,11 +7,11 @@
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>Description</key>
-	<string>Presenter file</string>
+	<string>ViewController file</string>
 	<key>Summary</key>
-	<string>Presenter class with protocol</string>
+	<string>ViewController with presenter</string>
 	<key>SortOrder</key>
-	<string>2</string>
+	<string>1</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>
@@ -28,9 +28,9 @@
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
-			<string>Presenter:</string>
+			<string>ViewController</string>
 			<key>Description</key>
-			<string>The name of the presenter class to create</string>
+			<string>The name of the view controller class to create</string>
 			<key>Type</key>
 			<string>text</string>
 			<key>NotPersisted</key>
