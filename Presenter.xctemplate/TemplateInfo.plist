@@ -36,18 +36,6 @@
 			<key>NotPersisted</key>
 			<true/>
 		</dict>
-		<dict>
-			<key>Identifier</key>
-			<string>viewProtocol</string>
-			<key>Required</key>
-			<true/>
-			<key>Name</key>
-			<string>For view:</string>
-			<key>Description</key>
-			<string>What class for presenter in the new file</string>
-			<key>Type</key>
-			<string>text</string>
-		</dict>
 	</array>
 </dict>
 </plist>

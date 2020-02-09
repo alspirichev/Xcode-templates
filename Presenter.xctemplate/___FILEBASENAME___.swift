@@ -8,11 +8,16 @@ public protocol ___FILEBASENAMEASIDENTIFIER___PresenterProtocol {
 
 final class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___PresenterProtocol {
     
-    weak var ui: ___VARIABLE_viewProtocol___Protocol?
+    weak var ui: ___FILEBASENAMEASIDENTIFIER___UIProtocol?
+    private let interactor: ___FILEBASENAMEASIDENTIFIER___InteractorProtocol
     
-    init(ui: ___VARIABLE_viewProtocol___Protocol) {
+    init(ui: ___FILEBASENAMEASIDENTIFIER___UIProtocol,
+         interactor: ___FILEBASENAMEASIDENTIFIER___InteractorProtocol) {
         self.ui = ui
+        self.interactor = interactor
     }
     
     // MARK: - Presenter's methods
+    
+    
 }
