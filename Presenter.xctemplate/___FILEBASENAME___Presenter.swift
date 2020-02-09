@@ -2,17 +2,17 @@
 
 import Foundation
 
-public protocol ___FILEBASENAMEASIDENTIFIER___Protocol {
+public protocol ___VARIABLE_productName:identifier___PresenterProtocol {
     
 }
 
-final class ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___Protocol {
+final class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:identifier___PresenterProtocol {
     
-    weak var ui: ___FILEBASENAMEASIDENTIFIER___UIProtocol?
-    private let interactor: ___FILEBASENAMEASIDENTIFIER___InteractorProtocol
+    weak var ui: ___VARIABLE_productName:identifier___UIProtocol?
+    private let interactor: ___VARIABLE_productName:identifier___InteractorProtocol!
     
-    init(ui: ___FILEBASENAMEASIDENTIFIER___UIProtocol,
-         interactor: ___FILEBASENAMEASIDENTIFIER___InteractorProtocol) {
+    init(ui: ___VARIABLE_productName:identifier___UIProtocol,
+        interactor: ___VARIABLE_productName:identifier___InteractorProtocol) {
         self.ui = ui
         self.interactor = interactor
     }
