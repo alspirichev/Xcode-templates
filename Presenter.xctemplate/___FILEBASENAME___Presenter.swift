@@ -2,11 +2,11 @@
 
 import Foundation
 
-public protocol ___FILEBASENAMEASIDENTIFIER___PresenterProtocol {
+public protocol ___FILEBASENAMEASIDENTIFIER___Protocol {
     
 }
 
-final class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___PresenterProtocol {
+final class ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___Protocol {
     
     weak var ui: ___FILEBASENAMEASIDENTIFIER___UIProtocol?
     private let interactor: ___FILEBASENAMEASIDENTIFIER___InteractorProtocol

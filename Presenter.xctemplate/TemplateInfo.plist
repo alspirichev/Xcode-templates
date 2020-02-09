@@ -19,7 +19,7 @@
 	<key>DefaultCompletionName</key>
 	<string>File</string>
 	<key>MainTemplateFile</key>
-	<string>___FILEBASENAME___.swift</string>
+	<string>___FILEBASENAME___Presenter.swift</string>
 	<key>Options</key>
 	<array>
 		<dict>

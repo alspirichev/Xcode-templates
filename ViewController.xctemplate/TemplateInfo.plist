@@ -2,8 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleIdentifier</key>
-	<string></string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>Description</key>
@@ -19,22 +21,30 @@
 	<key>DefaultCompletionName</key>
 	<string>File</string>
 	<key>MainTemplateFile</key>
-	<string>___FILEBASENAME___.swift</string>
+	<string>___FILEBASENAME___</string>
 	<key>Options</key>
 	<array>
 		<dict>
-			<key>Identifier</key>
-			<string>productName</string>
-			<key>Required</key>
-			<true/>
-			<key>Name</key>
-			<string>ViewController</string>
 			<key>Description</key>
-			<string>The name of the view controller class to create</string>
+			<string>Name of view controller file</string>
+			<key>Default</key>
+			<string></string>
+			<key>Identifier</key>
+			<string>viewControllerName</string>
+			<key>Name</key>
+			<string>ViewController:</string>
+			<key>Required</key>
+			<string>YES</string>
 			<key>Type</key>
 			<string>text</string>
-			<key>NotPersisted</key>
-			<true/>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_viewControllerName___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
 		</dict>
 	</array>
 </dict>
