@@ -13,7 +13,7 @@
 	<key>Summary</key>
 	<string>ViewController with presenter</string>
 	<key>SortOrder</key>
-	<string>3</string>
+	<string>2</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>
@@ -26,13 +26,13 @@
 	<array>
 		<dict>
 			<key>Description</key>
-			<string>Name of presenter file</string>
+			<string>Name of interactor file</string>
 			<key>Default</key>
 			<string></string>
 			<key>Identifier</key>
-			<string>presenterName</string>
+			<string>interactorName</string>
 			<key>Name</key>
-			<string>Presenter:</string>
+			<string>Interactor</string>
 			<key>Required</key>
 			<string>YES</string>
 			<key>Type</key>
@@ -40,7 +40,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_presenterName___</string>
+			<string>___VARIABLE_interactorName___</string>
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Type</key>
