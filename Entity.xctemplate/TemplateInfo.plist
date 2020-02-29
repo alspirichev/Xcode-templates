@@ -11,7 +11,7 @@
 	<key>Description</key>
 	<string>Entity file</string>
 	<key>Summary</key>
-	<string>VIPER Entity</string>
+	<string>Simple entity</string>
 	<key>SortOrder</key>
 	<string>4</string>
 	<key>AllowedTypes</key>
@@ -32,7 +32,7 @@
 			<key>Identifier</key>
 			<string>entityName</string>
 			<key>Name</key>
-			<string>Router:</string>
+			<string>Entity:</string>
 			<key>Required</key>
 			<string>YES</string>
 			<key>Type</key>

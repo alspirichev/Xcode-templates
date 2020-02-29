@@ -11,7 +11,7 @@
 	<key>Description</key>
 	<string>Router file</string>
 	<key>Summary</key>
-	<string>VIPER Router</string>
+	<string>Router</string>
 	<key>SortOrder</key>
 	<string>5</string>
 	<key>AllowedTypes</key>
@@ -30,7 +30,7 @@
 			<key>Default</key>
 			<string></string>
 			<key>Identifier</key>
-			<string>presenterName</string>
+			<string>routerName</string>
 			<key>Name</key>
 			<string>Router:</string>
 			<key>Required</key>
@@ -40,7 +40,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_presenterName___</string>
+			<string>___VARIABLE_routerName___</string>
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Type</key>

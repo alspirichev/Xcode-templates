@@ -9,9 +9,9 @@
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>Description</key>
-	<string>ViewController file</string>
+	<string>Presenter file</string>
 	<key>Summary</key>
-	<string>ViewController with presenter</string>
+	<string>Presenter with interactor and router</string>
 	<key>SortOrder</key>
 	<string>3</string>
 	<key>AllowedTypes</key>
