@@ -1,12 +1,13 @@
 //___FILEHEADER___
 
 import UIKit
+import DodoUIKit
 
 public protocol ___VARIABLE_productName:identifier___UIProtocol: AnyObject {
     
 }
 
-final class ___VARIABLE_productName:identifier___ViewController: UIViewController, Storyboardable {
+final class ___VARIABLE_productName:identifier___ViewController: UIViewController, ViewSpecificController, Storyboardable {
     typealias RootView = ___VARIABLE_productName:identifier___View
     
     public var presenter: ___VARIABLE_productName:identifier___PresenterProtocol!
