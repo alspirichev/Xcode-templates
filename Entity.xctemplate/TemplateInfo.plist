@@ -9,11 +9,11 @@
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>Description</key>
-	<string>Router file</string>
+	<string>Entity file</string>
 	<key>Summary</key>
-	<string>VIPER Router</string>
+	<string>VIPER Entity</string>
 	<key>SortOrder</key>
-	<string>5</string>
+	<string>4</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>
@@ -26,11 +26,11 @@
 	<array>
 		<dict>
 			<key>Description</key>
-			<string>Name of router file</string>
+			<string>Name of entity file</string>
 			<key>Default</key>
 			<string></string>
 			<key>Identifier</key>
-			<string>presenterName</string>
+			<string>entityName</string>
 			<key>Name</key>
 			<string>Router:</string>
 			<key>Required</key>
@@ -40,7 +40,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_presenterName___</string>
+			<string>___VARIABLE_entityName___</string>
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Type</key>
