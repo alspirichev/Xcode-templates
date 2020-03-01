@@ -1,6 +1,7 @@
 //___FILEHEADER___
 
 import XCTest
+@testable import <#Framework#>
 
 class ___VARIABLE_productName:identifier___Tests: XCTestCase {
     
