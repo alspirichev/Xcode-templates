@@ -3,14 +3,14 @@
 import UIKit
 import DodoUIKit
 
-public protocol ___VARIABLE_productName:identifier___UIProtocol: AnyObject {
+public protocol ___VARIABLE_viewControllerName:identifier___UIProtocol: AnyObject {
     
 }
 
-final public class ___VARIABLE_productName:identifier___ViewController: ___VARIABLE_cocoaTouchSubclass___, ViewSpecificController, Storyboardable {
-    public typealias RootView = ___VARIABLE_productName:identifier___View
+final public class ___VARIABLE_viewControllerName:identifier___ViewController: ___VARIABLE_cocoaTouchSubclass___, ViewSpecificController, Storyboardable {
+    public typealias RootView = ___VARIABLE_viewControllerName:identifier___View
     
-    public var presenter: ___VARIABLE_productName:identifier___PresenterProtocol!
+    public var presenter: ___VARIABLE_viewControllerName:identifier___PresenterProtocol!
     
     // MARK: - Life cycle
     
@@ -21,8 +21,8 @@ final public class ___VARIABLE_productName:identifier___ViewController: ___VARIA
     }
 }
 
-// MARK: - ___VARIABLE_productName:identifier___UIProtocol
+// MARK: - ___VARIABLE_viewControllerName:identifier___UIProtocol
 
-extension ___VARIABLE_productName:identifier___ViewController: ___VARIABLE_productName:identifier___UIProtocol {
+extension ___VARIABLE_viewControllerName:identifier___ViewController: ___VARIABLE_viewControllerName:identifier___UIProtocol {
     
 }

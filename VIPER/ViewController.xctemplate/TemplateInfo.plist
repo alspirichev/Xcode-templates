@@ -5,13 +5,13 @@
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>Description</key>
-	<string>A Cocoa Touch class.</string>
+	<string>ViewController class</string>
 	<key>Summary</key>
-	<string>A Cocoa Touch class</string>
+	<string>ViewController class</string>
 	<key>SortOrder</key>
 	<string>1</string>
 	<key>DefaultCompletionName</key>
-	<string>MyClass</string>
+	<string>ViewController</string>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
@@ -45,6 +45,8 @@
 			<string>class</string>
 			<key>Default</key>
 			<string>UIViewController</string>
+			<key>NotPersisted</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
