@@ -2,7 +2,11 @@
 
 import UIKit
 
-final public class ___VARIABLE_productName:identifier___View: UIView {
+final public class ___VARIABLE_viewControllerName:identifier___View: UIView {
     
-    
+    public override func awakeFromNib() {
+        super.awakeFromNib()
+        
+        
+    }
 }
