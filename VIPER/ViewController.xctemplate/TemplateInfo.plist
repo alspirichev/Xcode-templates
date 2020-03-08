@@ -2,41 +2,77 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>A Cocoa Touch class.</string>
+	<key>Summary</key>
+	<string>A Cocoa Touch class</string>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>DefaultCompletionName</key>
+	<string>MyClass</string>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
 	</array>
-	<key>Kind</key>
-	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
-	<key>Description</key>
-	<string>ViewController file</string>
-	<key>Summary</key>
-	<string>ViewController with presenter</string>
-	<key>SortOrder</key>
-	<string>1</string>
-	<key>AllowedTypes</key>
-	<array>
-		<string>public.swift-source</string>
-	</array>
-	<key>DefaultCompletionName</key>
-	<string>File</string>
-	<key>MainTemplateFile</key>
-	<string>___FILEBASENAME___</string>
 	<key>Options</key>
 	<array>
 		<dict>
-			<key>Description</key>
-			<string>Name of view controller file</string>
-			<key>Default</key>
-			<string></string>
 			<key>Identifier</key>
 			<string>viewControllerName</string>
+			<key>Required</key>
+			<true/>
 			<key>Name</key>
 			<string>ViewController:</string>
-			<key>Required</key>
-			<string>YES</string>
+			<key>Description</key>
+			<string>The name of the view controller class to create</string>
 			<key>Type</key>
 			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>cocoaTouchSubclass</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Name</key>
+			<string>Subclass of:</string>
+			<key>Description</key>
+			<string>What class to subclass in the new file</string>
+			<key>Type</key>
+			<string>class</string>
+			<key>Default</key>
+			<string>UIViewController</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>View</string>
+			<key>Name</key>
+			<string>Also create View file</string>
+			<key>Description</key>
+			<string>Whether to create a View file with the same name</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>false</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>Storyboard</string>
+			<key>Name</key>
+			<string>Also create Storyboard file</string>
+			<key>Description</key>
+			<string>Whether to create a Storyboard file with the same name</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>false</string>
+			<key>NotPersisted</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>Default</key>
