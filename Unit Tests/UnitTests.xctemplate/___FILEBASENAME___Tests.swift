@@ -5,14 +5,18 @@ import XCTest
 
 class ___VARIABLE_productName:identifier___Tests: XCTestCase {
     
-    private let sut: <#SystemUnderTest#>!
-
-    override func setUp() {
-        sut = <#Initialize system#>
+    private var sut: <#SystemUnderTest#>!
+    
+    override func setUpWithError() throws {
+        try setUpWithError()
+        
+        sut = <#Initialize sut#>
     }
-
-    override func tearDown() {
+    
+    override func tearDownWithError() throws {
         sut = nil
+        
+        try tearDownWithError()
     }
     
     // MARK: - Tests
