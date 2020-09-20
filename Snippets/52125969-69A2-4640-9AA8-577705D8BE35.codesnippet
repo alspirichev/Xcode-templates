@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>error</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// MARK: - Errors
+
+extension &lt;#Controller#&gt; {
+    enum Error: Swift.Error {
+        case &lt;#case#&gt;
+    }
+}
+
+extension &lt;#Controller#&gt;.Error: CustomNSError {
+    var errorCode: Int {
+        switch self {
+            case .&lt;#case#&gt;: return 0
+        }
+    }
+    
+    var errorUserInfo: [String : Any] {
+        switch self {
+            case .&lt;#case#&gt;:
+                return ["": ""]
+        }
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>52125969-69A2-4640-9AA8-577705D8BE35</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Custom error for BlackBox</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Custom error</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
