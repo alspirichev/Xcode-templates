@@ -1,5 +1,3 @@
-//___FILEHEADER___
-
 import Alamofire
 
 class ___VARIABLE_productName:identifier___Request: JsonDataRequestProtocol {
