@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Platforms - 2</key>
+	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
 	</array>
@@ -18,27 +18,39 @@
 	<array>
 		<string>public.swift-source</string>
 	</array>
-	<key>DefaultCompletionName</key>
-	<string>Test</string>
 	<key>MainTemplateFile</key>
 	<string>___FILEBASENAME___</string>
-	<key>BuildableType</key>
-	<string>TestHelper</string>
 	<key>Options</key>
 	<array>
 		<dict>
+			<key>Default</key>
+			<string>Some</string>
 			<key>Description</key>
-			<string>Name of the unit test class</string>
+			<string>Name of the test helper class</string>
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Name</key>
-			<string>Test class:</string>
+			<string>Test helper class:</string>
 			<key>NotPersisted</key>
 			<string>Yes</string>
 			<key>Required</key>
 			<string>Yes</string>
 			<key>Type</key>
 			<string>text</string>
+		</dict>
+		<dict>
+			<key>NotPersisted</key>
+			<string>Yes</string>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___+TestHelper</string>
+			<key>Description</key>
+			<string>Test helper for tests</string>
+			<key>Identifier</key>
+			<string>testHelper</string>
+			<key>Name</key>
+			<string>Full name:</string>
+			<key>Type</key>
+			<string>static</string>
 		</dict>
 	</array>
 </dict>

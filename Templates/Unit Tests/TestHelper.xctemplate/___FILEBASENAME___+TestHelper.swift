@@ -1,5 +1,7 @@
-//___FILEHEADER___
-
 @testable import <#Framework#>
 
-<#Your test helper#>
+extension ___VARIABLE_productName:identifier___ {
+    static func testMake(<#properties#>) -> Self {
+        ___VARIABLE_productName:identifier___(<#properties#>)
+    }
+}
