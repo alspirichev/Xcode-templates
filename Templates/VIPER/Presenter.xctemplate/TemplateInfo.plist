@@ -25,12 +25,14 @@
 	<key>Options</key>
 	<array>
 		<dict>
+			<key>NotPersisted</key>
+			<string>Yes</string>
 			<key>Description</key>
 			<string>Name of presenter file</string>
 			<key>Default</key>
-			<string></string>
+			<string>Some</string>
 			<key>Identifier</key>
-			<string>presenterName</string>
+			<string>productName</string>
 			<key>Name</key>
 			<string>Presenter:</string>
 			<key>Required</key>
@@ -39,10 +41,16 @@
 			<string>text</string>
 		</dict>
 		<dict>
+			<key>NotPersisted</key>
+			<string>Yes</string>
 			<key>Default</key>
-			<string>___VARIABLE_presenterName___</string>
+			<string>___VARIABLE_productName:identifier___Presenter</string>
+			<key>Description</key>
+			<string>Presenter</string>
 			<key>Identifier</key>
-			<string>productName</string>
+			<string>presenter</string>
+			<key>Name</key>
+			<string>Full name:</string>
 			<key>Type</key>
 			<string>static</string>
 		</dict>

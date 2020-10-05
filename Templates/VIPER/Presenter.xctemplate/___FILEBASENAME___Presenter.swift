@@ -1,14 +1,10 @@
-//___FILEHEADER___
-
-import Foundation
-
 public protocol ___VARIABLE_productName:identifier___PresenterProtocol: AnyObject {
 
 }
 
 final public class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:identifier___PresenterProtocol {
     
-    weak var ui: ___VARIABLE_productName:identifier___UIProtocol?
+    unowned var ui: ___VARIABLE_productName:identifier___UIProtocol?
     private let router: ___VARIABLE_productName:identifier___RouterProtocol!
     private let interactor: ___VARIABLE_productName:identifier___InteractorProtocol!
     
@@ -22,5 +18,5 @@ final public class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_p
     
     // MARK: - Presenter's methods
     
-    
+    <#your cool methods#>
 }

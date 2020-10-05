@@ -25,26 +25,20 @@
 	<key>Options</key>
 	<array>
 		<dict>
+			<key>NotPersisted</key>
+			<string>Yes</string>
 			<key>Description</key>
 			<string>Name of entity file</string>
 			<key>Default</key>
-			<string></string>
+			<string>MyModel</string>
 			<key>Identifier</key>
-			<string>entityName</string>
+			<string>productName</string>
 			<key>Name</key>
 			<string>Entity:</string>
 			<key>Required</key>
 			<string>YES</string>
 			<key>Type</key>
 			<string>text</string>
-		</dict>
-		<dict>
-			<key>Default</key>
-			<string>___VARIABLE_entityName___</string>
-			<key>Identifier</key>
-			<string>productName</string>
-			<key>Type</key>
-			<string>static</string>
 		</dict>
 	</array>
 </dict>
