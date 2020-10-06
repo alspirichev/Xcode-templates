@@ -2,24 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Platforms - 2</key>
+	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
 	</array>
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>Description</key>
-	<string>A class implementing a unit test.</string>
+	<string>A class implementing Spec</string>
 	<key>Summary</key>
-	<string>A class implementing a unit test</string>
+	<string>A class implementing Spec</string>
 	<key>SortOrder</key>
-	<string>3</string>
+	<string>1</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>
 	</array>
 	<key>DefaultCompletionName</key>
-	<string>Test</string>
+	<string>Spec</string>
 	<key>MainTemplateFile</key>
 	<string>___FILEBASENAME___</string>
 	<key>BuildableType</key>
@@ -28,17 +28,31 @@
 	<array>
 		<dict>
 			<key>Description</key>
-			<string>Name of the unit test class</string>
+			<string>Name of the spec class</string>
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Name</key>
-			<string>Test class:</string>
+			<string>Spec for:</string>
 			<key>NotPersisted</key>
 			<string>Yes</string>
 			<key>Required</key>
 			<string>Yes</string>
 			<key>Type</key>
 			<string>text</string>
+		</dict>
+		<dict>
+			<key>NotPersisted</key>
+			<string>Yes</string>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___Spec</string>
+			<key>Description</key>
+			<string>Quick spec</string>
+			<key>Identifier</key>
+			<string>spec</string>
+			<key>Name</key>
+			<string>Full name:</string>
+			<key>Type</key>
+			<string>static</string>
 		</dict>
 	</array>
 </dict>
