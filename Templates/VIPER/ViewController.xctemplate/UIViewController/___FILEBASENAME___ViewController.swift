@@ -1,5 +1,3 @@
-//___FILEHEADER___
-
 import UIKit
 import DodoUIKit
 

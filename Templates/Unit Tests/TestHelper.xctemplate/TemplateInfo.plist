@@ -13,7 +13,7 @@
 	<key>Summary</key>
 	<string>A class implementing a test helpers for tests</string>
 	<key>SortOrder</key>
-	<string>2</string>
+	<string>3</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>

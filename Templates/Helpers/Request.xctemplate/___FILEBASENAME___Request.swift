@@ -1,4 +1,5 @@
 import Alamofire
+import Networking
 
 class ___VARIABLE_productName:identifier___Request: JsonDataRequestProtocol {
     typealias Dto = <#Dto#>

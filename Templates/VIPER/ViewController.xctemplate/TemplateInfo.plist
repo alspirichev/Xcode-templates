@@ -11,7 +11,9 @@
 	<key>SortOrder</key>
 	<string>1</string>
 	<key>DefaultCompletionName</key>
-	<string>ViewController</string>
+	<string>File</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___ViewController.swift</string>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
@@ -19,6 +21,8 @@
 	<key>Options</key>
 	<array>
 		<dict>
+			<key>Default</key>
+			<string>Massive</string>
 			<key>Identifier</key>
 			<string>viewControllerName</string>
 			<key>Required</key>
@@ -30,7 +34,7 @@
 			<key>Type</key>
 			<string>text</string>
 			<key>NotPersisted</key>
-			<true/>
+			<string>YES</string>
 		</dict>
 		<dict>
 			<key>Identifier</key>
@@ -46,13 +50,13 @@
 			<key>Default</key>
 			<string>UIViewController</string>
 			<key>NotPersisted</key>
-			<true/>
+			<string>YES</string>
 		</dict>
 		<dict>
 			<key>Identifier</key>
 			<string>View</string>
 			<key>Name</key>
-			<string>Also create View file</string>
+			<string>Also create View file:</string>
 			<key>Description</key>
 			<string>Whether to create a View file with the same name</string>
 			<key>Type</key>
@@ -66,7 +70,7 @@
 			<key>Identifier</key>
 			<string>Storyboard</string>
 			<key>Name</key>
-			<string>Also create Storyboard file</string>
+			<string>Also create Storyboard file:</string>
 			<key>Description</key>
 			<string>Whether to create a Storyboard file with the same name</string>
 			<key>Type</key>
@@ -77,10 +81,30 @@
 			<true/>
 		</dict>
 		<dict>
+			<key>NotPersisted</key>
+			<string>Yes</string>
 			<key>Default</key>
-			<string>___VARIABLE_viewControllerName___</string>
+			<string>___VARIABLE_viewControllerName:identifier___ViewController</string>
+			<key>Description</key>
+			<string>ViewController</string>
 			<key>Identifier</key>
 			<string>productName</string>
+			<key>Name</key>
+			<string>ViewController:</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>NotPersisted</key>
+			<string>Yes</string>
+			<key>Default</key>
+			<string>___VARIABLE_viewName:identifier___View</string>
+			<key>Description</key>
+			<string>View</string>
+			<key>Identifier</key>
+			<string>view</string>
+			<key>Name</key>
+			<string>View:</string>
 			<key>Type</key>
 			<string>static</string>
 		</dict>
