@@ -1,29 +1,33 @@
 import Alamofire
 import Networking
 
-class ___VARIABLE_productName:identifier___Request: JsonDataRequestProtocol {
-    typealias Dto = <#Dto#>
+public class ___VARIABLE_productName:identifier___Request: JsonDataRequestProtocol {
+    public typealias Dto = <#Dto#>
     
     public var successCompletionHandler: SuccessHandler<Dto>?
     public var failureCompletionHandler: ErrorCompletionHandler?
     
-    func getUrl() -> String {
+    public init() {
+        
+    }
+    
+    public func getUrl() -> String {
         <#URL#>
     }
     
-    func getMethod() -> HTTPMethod {
+    public func getMethod() -> HTTPMethod {
         <#Method#>
     }
     
-    func getParams() -> Parameters? {
+    public func getParams() -> Parameters? {
         <#Parameters#>
     }
     
-    func isAbsoluteUrl() -> Bool {
+    public func isAbsoluteUrl() -> Bool {
         false
     }
     
-    func getHeaders() -> HTTPHeaders? {
+    public func getHeaders() -> HTTPHeaders? {
         nil
     }
     
