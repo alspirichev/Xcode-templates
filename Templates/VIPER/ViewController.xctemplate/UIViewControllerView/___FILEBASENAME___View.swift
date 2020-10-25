@@ -1,6 +1,6 @@
-import UIKit
+import DUIKit
 
-final public class ___VARIABLE_viewName:identifier___View: UIView {
+final public class ___VARIABLE_productName:identifier___View: UIView {
     
     // keep your IBOutlet's private
     

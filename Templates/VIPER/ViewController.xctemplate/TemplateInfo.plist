@@ -13,7 +13,7 @@
 	<key>DefaultCompletionName</key>
 	<string>File</string>
 	<key>MainTemplateFile</key>
-	<string>___FILEBASENAME___ViewController.swift</string>
+	<string>___FILEBASENAME___</string>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
@@ -24,7 +24,7 @@
 			<key>Default</key>
 			<string>Massive</string>
 			<key>Identifier</key>
-			<string>viewControllerName</string>
+			<string>productName</string>
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
@@ -79,6 +79,20 @@
 			<string>true</string>
 			<key>NotPersisted</key>
 			<true/>
+		</dict>
+		<dict>
+			<key>NotPersisted</key>
+			<string>Yes</string>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___ViewController</string>
+			<key>Description</key>
+			<string>ViewController</string>
+			<key>Identifier</key>
+			<string>previewViewController</string>
+			<key>Name</key>
+			<string>ViewController:</string>
+			<key>Type</key>
+			<string>static</string>
 		</dict>
 	</array>
 </dict>
