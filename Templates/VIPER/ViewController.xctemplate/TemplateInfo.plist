@@ -94,6 +94,20 @@
 			<key>Type</key>
 			<string>static</string>
 		</dict>
+		<dict>
+			<key>NotPersisted</key>
+			<string>Yes</string>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___View</string>
+			<key>Description</key>
+			<string>View</string>
+			<key>Identifier</key>
+			<string>previewView</string>
+			<key>Name</key>
+			<string>View:</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
 	</array>
 </dict>
 </plist>
