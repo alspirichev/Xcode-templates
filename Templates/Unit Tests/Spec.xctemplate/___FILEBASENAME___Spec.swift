@@ -2,9 +2,10 @@
 
 import Quick
 import Nimble
+import Spry
 import Spry_Nimble
 
-class ___VARIABLE_productName:identifier___Spec: QuickSpec {
+final class ___VARIABLE_productName:identifier___Spec: QuickSpec {
     override func spec() {
         describe("___VARIABLE_productName:identifier___") {
             var sut: ___VARIABLE_productName:identifier___!
