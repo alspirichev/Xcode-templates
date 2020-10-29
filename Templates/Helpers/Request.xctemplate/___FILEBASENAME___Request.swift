@@ -1,12 +1,11 @@
-import Alamofire
-import Networking
+import Foundation
 
-public class ___VARIABLE_productName:identifier___Request: JsonDataRequestProtocol {
+public class ___VARIABLE_productName:identifier___Request: JsonDataRequestProtocol, RequiresAuthorization {
     public typealias Dto = <#Dto#>
     
     public var successCompletionHandler: SuccessHandler<Dto>?
     public var failureCompletionHandler: ErrorCompletionHandler?
-    
+   
     public init() {
         
     }
@@ -15,27 +14,27 @@ public class ___VARIABLE_productName:identifier___Request: JsonDataRequestProtoc
         <#URL#>
     }
     
+    public func isAbsoluteUrl() -> Bool {
+        false
+    }
+    
     public func getMethod() -> HTTPMethod {
-        <#Method#>
+        <#method#>
     }
     
     public func getParams() -> Parameters? {
-        <#Parameters#>
-    }
-    
-    public func isAbsoluteUrl() -> Bool {
-        false
+        <#params#>
     }
     
     public func getHeaders() -> HTTPHeaders? {
         nil
     }
     
-    public func onSuccess(response: Dto, statusCode: HttpCode?) {
-        self.successCompletionHandler?(response, nil)
+    public func onSuccess(response: Dto) {
+        successCompletionHandler?(response, nil)
     }
     
-    public func onFailure(error: Error?, statusCode: HttpCode?, response: Data?) {
-        self.failureCompletionHandler?(error, statusCode, nil)
+    public func onFailure(error: NetworkError) {
+        failureCompletionHandler?(error, nil)
     }
 }
