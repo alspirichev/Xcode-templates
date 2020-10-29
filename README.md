@@ -1,23 +1,25 @@
-## File templates
-
 ![](https://github.com/alspirichev/Xcode-templates/blob/master/resources/New%20teamplate.png)
 
-Place the template files in a `Templates` folder (or сreate it if needed):
-> ~/Library/Developer/Xcode/Templates/
+## Installation
 
-* VIPER module
+Run installation script in directory:
+```sh
+sh install_snippets_and_template.sh
+```
+
+## File templates
+
+* VIPER module (separate templates for each component)
 * Spec (for [Quick](https://github.com/Quick/Quick))
-* Unit test
-* test helper
 * mock (for [Spry](https://github.com/Rivukis/Spry))
+* test helper
+* Unit test
 * etc
 
 ## Snippets:
 
-> ~/Library/Developer/Xcode/UserData/CodeSnippets
-
 * Quick
 * Spry
-* guard
+* weak self
 * func (without braces)
 * etc
