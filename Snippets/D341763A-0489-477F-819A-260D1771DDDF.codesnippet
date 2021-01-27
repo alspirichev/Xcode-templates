@@ -11,11 +11,14 @@
 	<key>IDECodeSnippetContents</key>
 	<string>import Quick
 import Nimble
+import Spry
 import Spry_Nimble</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D341763A-0489-477F-819A-260D1771DDDF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>

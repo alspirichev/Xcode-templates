@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - 
+	<string>// MARK: - &lt;#name#&gt;
 
 extension &lt;#Class#&gt;: &lt;#Protocol#&gt; {
     

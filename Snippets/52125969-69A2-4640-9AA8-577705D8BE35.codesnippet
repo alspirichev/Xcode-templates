@@ -11,23 +11,21 @@
 	<key>IDECodeSnippetContents</key>
 	<string>// MARK: - Errors
 
-extension &lt;#Controller#&gt; {
+extension &lt;#Controller#&gt;: CustomNSError {
     enum Error: Swift.Error {
         case &lt;#case#&gt;
-    }
-}
-
-extension &lt;#Controller#&gt;.Error: CustomNSError {
-    var errorCode: Int {
-        switch self {
+        
+        var errorCode: Int {
+            switch self {
             case .&lt;#case#&gt;: return 0
+            }
         }
-    }
-    
-    var errorUserInfo: [String : Any] {
-        switch self {
+        
+        var errorUserInfo: [String: Any] {
+            switch self {
             case .&lt;#case#&gt;:
-                return ["": ""]
+                return [:]
+            }
         }
     }
 }</string>
@@ -35,6 +33,8 @@ extension &lt;#Controller#&gt;.Error: CustomNSError {
 	<string>52125969-69A2-4640-9AA8-577705D8BE35</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>Custom error for BlackBox</string>
 	<key>IDECodeSnippetTitle</key>
