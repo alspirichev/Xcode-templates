@@ -1,6 +1,6 @@
 import DAnalytics
 
-public class ___VARIABLE_productName:identifier___Event: AnalyticsEvent {
+public final class ___VARIABLE_productName:identifier___Event: AnalyticsEvent {
     public typealias ContextType = ___VARIABLE_productName:identifier___Event.Context
 
     public let supportedProviders: [AnalyticsProviderType] = [.kusto]

@@ -2,7 +2,7 @@ public protocol ___VARIABLE_productName:identifier___PresenterProtocol: AnyObjec
 
 }
 
-final public class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:identifier___PresenterProtocol {
+public final class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:identifier___PresenterProtocol {
     
     unowned var ui: ___VARIABLE_productName:identifier___UIProtocol?
     private let router: ___VARIABLE_productName:identifier___RouterProtocol!

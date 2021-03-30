@@ -4,7 +4,7 @@ public protocol ___VARIABLE_productName:identifier___UIProtocol: AnyObject {
     
 }
 
-final public class ___VARIABLE_productName:identifier___ViewController: ___VARIABLE_cocoaTouchSubclass___, ViewSpecificController, Storyboardable {
+public final class ___VARIABLE_productName:identifier___ViewController: ___VARIABLE_cocoaTouchSubclass___, ViewSpecificController, Storyboardable {
     public typealias RootView = ___VARIABLE_productName:identifier___View
     
     public var presenter: ___VARIABLE_productName:identifier___PresenterProtocol!

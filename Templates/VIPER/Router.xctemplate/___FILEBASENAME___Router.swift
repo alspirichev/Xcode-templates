@@ -4,7 +4,7 @@ public protocol ___VARIABLE_productName:identifier___RouterProtocol {
     
 }
 
-final public class ___VARIABLE_productName:identifier___Router: ___VARIABLE_productName:identifier___RouterProtocol {
+public final class ___VARIABLE_productName:identifier___Router: ___VARIABLE_productName:identifier___RouterProtocol {
     
     private weak var viewController: UIViewController!
     

@@ -1,6 +1,6 @@
 import Foundation
 
-public class ___VARIABLE_productName:identifier___Request: JsonDataRequestProtocol, RequiresAuthorization {
+public final class ___VARIABLE_productName:identifier___Request: JsonDataRequestProtocol, RequiresAuthorization {
     public typealias Dto = <#Dto#>
     
     public var successCompletionHandler: SuccessHandler<Dto>?
