@@ -6,7 +6,7 @@ class ___VARIABLE_productName:identifier___Tests: XCTestCase {
     private var sut: <#SystemUnderTest#>!
     
     override func setUpWithError() throws {
-        try setUpWithError()
+        try super.setUpWithError()
         
         sut = <#Initialize sut#>
     }
@@ -14,7 +14,7 @@ class ___VARIABLE_productName:identifier___Tests: XCTestCase {
     override func tearDownWithError() throws {
         sut = nil
         
-        try tearDownWithError()
+        try super.tearDownWithError()
     }
     
     // MARK: - Tests
